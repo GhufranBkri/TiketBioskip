@@ -112,11 +112,21 @@ public class Payment extends javax.swing.JFrame {
         jToggleButton1.setFont(new java.awt.Font("Bell MT", 1, 18)); // NOI18N
         jToggleButton1.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton1.setText("< PREVIOUS");
+        jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton1ActionPerformed(evt);
+            }
+        });
 
         jToggleButton2.setBackground(new java.awt.Color(183, 179, 81));
         jToggleButton2.setFont(new java.awt.Font("Bell MT", 1, 18)); // NOI18N
         jToggleButton2.setForeground(new java.awt.Color(255, 255, 255));
         jToggleButton2.setText("COMPLETE ORDER");
+        jToggleButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton2ActionPerformed(evt);
+            }
+        });
 
         jTextField6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -246,6 +256,21 @@ public class Payment extends javax.swing.JFrame {
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField2ActionPerformed
+
+    private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
+
+        FilmPage D1 = new FilmPage();
+        D1.setVisible(true);
+        this.dispose();
+
+// TODO add your handling code here:
+    }//GEN-LAST:event_jToggleButton1ActionPerformed
+
+    private void jToggleButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton2ActionPerformed
+       Struct s = new Struct();
+          s.setVisible(true);
+          this.dispose();
+    }//GEN-LAST:event_jToggleButton2ActionPerformed
 
     /**
      * @param args the command line arguments

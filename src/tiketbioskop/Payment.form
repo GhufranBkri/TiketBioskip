@@ -253,6 +253,9 @@
             </Property>
             <Property name="text" type="java.lang.String" value="&lt; PREVIOUS"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton1ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JToggleButton" name="jToggleButton2">
           <Properties>
@@ -267,6 +270,9 @@
             </Property>
             <Property name="text" type="java.lang.String" value="COMPLETE ORDER"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton2ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="jTextField6">
           <Events>
