@@ -38,6 +38,7 @@ public class HomePage extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
@@ -72,20 +73,28 @@ public class HomePage extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/user-3296 (1).png"))); // NOI18N
 
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/laiinnn.png"))); // NOI18N
+
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addGap(23, 23, 23))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(17, 17, 17)
-                .addComponent(jLabel1)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(17, 17, 17)
+                        .addComponent(jLabel1))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel2)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -247,20 +256,20 @@ public class HomePage extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(42, 42, 42)
                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(30, 30, 30)
                 .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(42, 42, 42)
+                .addGap(30, 30, 30)
                 .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addGap(30, 30, 30)
                 .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 30, Short.MAX_VALUE)
                 .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(32, 32, 32))
             .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(69, 69, 69)
-                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 70, Short.MAX_VALUE)
-                .addContainerGap(945, Short.MAX_VALUE))
+                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -273,7 +282,7 @@ public class HomePage extends javax.swing.JFrame {
                     .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(51, 51, 51)
+                .addGap(42, 42, 42)
                 .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(16, Short.MAX_VALUE))
         );
@@ -300,31 +309,31 @@ public class HomePage extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
- Film film1 = new Film("Keramat 2 : Caruban Larang","Horror, Mockumentary","Chand Parwez Servia","Monty Tiwa","Starvision Plus","Lutesha, Arla Ailani, Ajil Ditto","Sekumpulan anak muda dari Jakarta berangkat menuju Cirebon dengan berbagai tujuan yang berbeda. Arla (Arla Ailani), Jojo (Josephine Firmstone), dan Maura (Maura Gabrielle) ingin melakukan riset mengenai tugas akhir, yang dibantu oleh pembuat film dokumenter bernama Umay (Umay Shahab). Sedangkan Ajil (Ajil Ditto) dan Keanu (Keanu Angelo) adalah YouTuber horor yang membuat konten untuk mempertahankan eksistensi. Perjalanan mereka menjadi liar dan tak terkendali setelah bertemu dengan Ute (Lutesha), seorang indigo yang mempunyai agenda rahasia.","d",60000);
+ Film film1 = new Film("Keramat 2 : Caruban Larang","Horror, Mockumentary","Chand Parwez Servia","Monty Tiwa","Starvision Plus","Lutesha, Arla Ailani, Ajil Ditto","Sekumpulan anak muda dari Jakarta berangkat menuju Cirebon dengan berbagai tujuan yang berbeda. Arla (Arla Ailani), Jojo (Josephine Firmstone), dan Maura (Maura Gabrielle) ingin melakukan riset mengenai tugas akhir, yang dibantu oleh pembuat film dokumenter bernama Umay (Umay Shahab). Sedangkan Ajil (Ajil Ditto) dan Keanu (Keanu Angelo) adalah YouTuber horor yang membuat konten untuk mempertahankan eksistensi. Perjalanan mereka menjadi liar dan tak terkendali setelah bertemu dengan Ute (Lutesha), seorang indigo yang mempunyai agenda rahasia.","/Gambar/183dccacd1a77a06b73b011de515cb7a (4).jpg",60000);
     DirectPage(film1);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
- Film film1 = new Film("Aladdin","Musical, Comedy, Adventure, Romance","Dan Lin","Guy Ritchie","Walt Disney Studios","Will Smith, Mena Massoud, Naomi Scott","Aladdin adalah anak jalanan yang menyenangkan yang bertemu Putri Jasmine, putri cantik dari sultan Agrabah. Saat mengunjungi istananya yang eksotis, Aladdin menemukan sebuah lampu minyak ajaib yang melepaskan jin yang kuat, cerdik, dan lebih besar dari kehidupan. Saat Aladdin dan jin mulai berteman, mereka harus segera memulai misi berbahaya untuk menghentikan penyihir jahat, Jafar, dari menggulingkan kerajaan muda Jasmine.","d",40000);
+ Film film1 = new Film("Aladdin","Musical, Comedy, Adventure, Romance","Dan Lin","Guy Ritchie","Walt Disney Studios","Will Smith, Mena Massoud, Naomi Scott","Aladdin adalah anak jalanan yang menyenangkan yang bertemu Putri Jasmine, putri cantik dari sultan Agrabah. Saat mengunjungi istananya yang eksotis, Aladdin menemukan sebuah lampu minyak ajaib yang melepaskan jin yang kuat, cerdik, dan lebih besar dari kehidupan. Saat Aladdin dan jin mulai berteman, mereka harus segera memulai misi berbahaya untuk menghentikan penyihir jahat, Jafar, dari menggulingkan kerajaan muda Jasmine.","/Gambar/4444.jpg",40000);
     DirectPage(film1);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-    Film film1 = new Film("Qodrat","Horor, Action, Drama","Linda Gozali Arya","Charles Gozali","Rapi Films","Vino G.Bastian, Marsha Timothy, Maudy Effrosina","Menceritakan tentang Kodrat (Slamet Rahardjo) merasa kehilangan sahabat setelah Solikhin (Piet Pagau) sahabatnya mati tertembak polisi. Mereka berasal dari kaum miskin dan besar bersama di asrama yatim piatu. Inilah yang menyebabkan mereka selalu menyumbangkan uang hasil jerih payah mereka pada asrama mereka.","d",50000);
+    Film film1 = new Film("Qodrat","Horor, Action, Drama","Linda Gozali Arya","Charles Gozali","Rapi Films","Vino G.Bastian, Marsha Timothy, Maudy Effrosina","Menceritakan tentang Kodrat (Slamet Rahardjo) merasa kehilangan sahabat setelah Solikhin (Piet Pagau) sahabatnya mati tertembak polisi. Mereka berasal dari kaum miskin dan besar bersama di asrama yatim piatu. Inilah yang menyebabkan mereka selalu menyumbangkan uang hasil jerih payah mereka pada asrama mereka.","/Gambar/333.jpg",50000);
     DirectPage(film1);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-    Film film1 = new Film("Black Widow","Action, Sci-fi","Kevin Feige","Cate Shortland","Marvel Studios","Scarlett Johansson, Florence Pugh, David Harbour","Natasha Romanoff, alias Black Widow, menghadapi bagian gelap dari buku besarnya ketika sebuah konspirasi berbahaya yang terkait dengan masa lalunya muncul. Dikejar oleh kekuatan yang tidak akan berhenti untuk menjatuhkannya, Natasha harus berurusan dengan sejarahnya sebagai mata-mata, dan hubungan yang rusak yang ditinggalkannya jauh sebelum dia menjadi Pembalas.","d",45000);
+    Film film1 = new Film("Black Widow","Action, Sci-fi","Kevin Feige","Cate Shortland","Marvel Studios","Scarlett Johansson, Florence Pugh, David Harbour","Natasha Romanoff, alias Black Widow, menghadapi bagian gelap dari buku besarnya ketika sebuah konspirasi berbahaya yang terkait dengan masa lalunya muncul. Dikejar oleh kekuatan yang tidak akan berhenti untuk menjatuhkannya, Natasha harus berurusan dengan sejarahnya sebagai mata-mata, dan hubungan yang rusak yang ditinggalkannya jauh sebelum dia menjadi Pembalas.","/Gambar/222.jpg",45000);
     DirectPage(film1);
 // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-    Film film1 = new Film("Miracle in cell no 7","Drama, Family","Frederica","Hanung Bramantyo","Falcon Pictures","Vino G. Bastian, Graciella Abigail, Indro Warkop","Kisah kehidupan seorang ayah cacat mental yang memiliki seorang putri cerdas berusia 6 tahun. Mereka berdua dipisahkan akibat tuduhan pembunuhan, yang berakhir dengan hukuman mati terhadap sang ayah.","d",60000);
+    Film film1 = new Film("Miracle in cell no 7","Drama, Family","Frederica","Hanung Bramantyo","Falcon Pictures","Vino G. Bastian, Graciella Abigail, Indro Warkop","Kisah kehidupan seorang ayah cacat mental yang memiliki seorang putri cerdas berusia 6 tahun. Mereka berdua dipisahkan akibat tuduhan pembunuhan, yang berakhir dengan hukuman mati terhadap sang ayah.","/Gambar/111.jpg",60000);
     DirectPage(film1);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -379,6 +388,7 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
